@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>德文琳金属工艺品 — 20 年定制工厂</title>
+<meta name="description" content="德文琳金属工艺品,20 年定制金属徽章、奖牌、硬币、钥匙扣、宠物牌、书签、冰箱贴等。OEM/ODM 全球品牌客户合作。">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="德文琳金属工艺品 — 20 年定制工厂">
+<meta property="og:description" content="20 年金属工艺品定制经验,全球品牌合作工厂。">
+<meta property="og:type" content="website">
+<style>
+:root{--gold:#c4a85a;--gold-deep:#a48a45;--ink:#1a1a1a;--muted:#6e6e6e;--line:#e7e2d6;--bg:#faf7f1}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* ---------- header ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);backdrop-filter:saturate(180%) blur(8px)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px;color:var(--gold-deep);letter-spacing:.5px}
+.brand-mark{width:36px;height:36px}
+.nav-links{display:flex;gap:36px;align-items:center}
+.nav-links a{font-size:14px;font-weight:500;color:#333;letter-spacing:1px;position:relative;padding:6px 0}
+.nav-links a:hover{color:var(--gold-deep)}
+.nav-links .has-caret::after{content:"▾";font-size:10px;margin-left:6px;color:var(--gold-deep)}
+.lang{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:13px;border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;color:#fff;text-align:center;padding:120px 24px;background:
+  linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),
+  radial-gradient(ellipse at 50% 30%, #4a3f2c 0%, #1a1612 60%, #0a0807 100%);
+  overflow:hidden}
+.hero::after{content:"";position:absolute;inset:0;background-image:
+  radial-gradient(circle at 20% 80%, rgba(196,168,90,.18) 0%, transparent 40%),
+  radial-gradient(circle at 80% 20%, rgba(196,168,90,.15) 0%, transparent 40%);
+  pointer-events:none}
+.hero h1{font-size:42px;margin:0 0 18px;font-weight:600;letter-spacing:1px;position:relative}
+.hero p{max-width:880px;margin:0 auto;font-size:16px;color:#e6dfd0;position:relative}
+.hero .cta{display:inline-block;margin-top:36px;background:var(--gold);color:#1a1a1a;padding:14px 36px;border-radius:4px;font-weight:600;letter-spacing:1px;position:relative}
+.hero .cta:hover{background:var(--gold-deep);color:#fff}
+
+/* ---------- trust strip ---------- */
+.trust{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0}
+.trust-title{text-align:center;color:var(--muted);font-size:13px;letter-spacing:2px;margin-bottom:18px}
+.trust-row{display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap;gap:24px}
+.trust-row svg{height:28px;opacity:.45;filter:grayscale(100%)}
+
+/* ---------- sections ---------- */
+section{padding:80px 0}
+.section-title{text-align:center;margin:0 0 12px;font-size:32px;font-weight:600;color:var(--ink);letter-spacing:.5px}
+.section-sub{text-align:center;color:var(--muted);margin:0 0 48px;font-size:14px;letter-spacing:2px;text-transform:uppercase}
+
+/* ---------- product grid ---------- */
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px -10px rgba(0,0,0,.18);border-color:var(--gold)}
+.card-thumb{aspect-ratio:4/3;background:linear-gradient(135deg,#f3eedf,#e6dec4);display:flex;align-items:center;justify-content:center}
+.card-thumb svg{width:60%;height:60%}
+.card-body{padding:20px 18px 22px;text-align:center}
+.card-body h3{margin:0 0 6px;font-size:16px;font-weight:600;color:var(--ink)}
+.card-body p{margin:0;font-size:13px;color:var(--muted)}
+
+/* ---------- value props ---------- */
+.values{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.values-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+@media(max-width:900px){.values-grid{grid-template-columns:repeat(2,1fr)}}
+.value{text-align:center;padding:20px 12px}
+.value .v-icon{width:54px;height:54px;margin:0 auto 14px;color:var(--gold-deep)}
+.value h4{margin:0 0 8px;font-size:15px;font-weight:600}
+.value p{margin:0;color:var(--muted);font-size:13px}
+
+/* ---------- process ---------- */
+.process ol{list-style:none;padding:0;margin:0;counter-reset:step;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+@media(max-width:900px){.process ol{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.process ol{grid-template-columns:1fr}}
+.process li{counter-increment:step;background:#fff;border:1px solid var(--line);border-radius:6px;padding:28px 24px 24px;position:relative}
+.process li::before{content:counter(step,decimal-leading-zero);position:absolute;top:-18px;left:24px;background:var(--gold);color:#fff;font-weight:700;font-size:14px;padding:6px 12px;border-radius:4px;letter-spacing:1px}
+.process li strong{display:block;font-size:16px;margin:0 0 6px;color:var(--ink)}
+.process li span{color:var(--muted);font-size:13px}
+
+/* ---------- testimonials ---------- */
+.testimonials{background:linear-gradient(180deg,#1a1612 0%, #2a241b 100%);color:#f0e9d6}
+.testimonials .section-title{color:#fff}
+.testimonials .section-sub{color:var(--gold)}
+.tlist{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media(max-width:900px){.tlist{grid-template-columns:1fr}}
+.tcard{background:rgba(255,255,255,.04);border:1px solid rgba(196,168,90,.25);border-radius:6px;padding:28px}
+.tcard blockquote{margin:0 0 14px;font-size:14px;color:#e6dfd0;line-height:1.7;font-style:italic}
+.tcard cite{display:block;font-style:normal;color:var(--gold);font-weight:600;font-size:14px}
+.tcard .role{color:#999;font-size:12px}
+
+/* ---------- CTA + footer ---------- */
+.cta-strip{text-align:center;background:var(--gold);color:#1a1a1a;padding:60px 24px}
+.cta-strip h2{margin:0 0 10px;font-size:30px;font-weight:600}
+.cta-strip p{margin:0 0 24px;font-size:15px;color:#3a3220}
+.cta-strip a{background:#1a1a1a;color:#fff;padding:14px 40px;border-radius:4px;font-weight:600;display:inline-block}
+footer{background:#0a0807;color:#b8b0a0;padding:40px 0 24px;text-align:center;font-size:13px}
+footer .links{margin-bottom:14px}
+footer .links a{margin:0 14px;color:#b8b0a0}
+footer .links a:hover{color:var(--gold)}
+footer .copy{color:#6e6e6e;font-size:12px;letter-spacing:1px}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+<div class="wrap nav">
+<a href="/" class="brand">
+<svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+<circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2"/>
+<text x="32" y="40" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-weight="700" fill="currentColor">德</text>
+</svg>
+德文琳
+</a>
+<nav class="nav-links" aria-label="主导航">
+<a href="/">首页</a>
+<a href="/about.html">关于</a>
+<a href="#" class="has-caret">产品</a>
+<a href="/blog.html">资讯</a>
+<a href="/contact.html">联系</a>
+</nav>
+<span class="lang" aria-label="语言">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/></svg>
+中文
+</span>
+</div>
+</header>
+
+<section class="hero">
+<h1>20 年金属工艺品定制工厂</h1>
+<p>专注 OEM/ODM 定制:金属徽章、奖牌、硬币、钥匙扣、宠物牌、书签、冰箱贴、铭牌、胸针、瓶起子等。服务于服装、箱包、宠物用品、酒水、文创、纪念品、企业礼品等多行业品牌客户。</p>
+<a href="/contact.html" class="cta">立即询价</a>
+</section>
+
+<div class="trust">
+<div class="wrap">
+<div class="trust-title">全球品牌客户合作</div>
+<div class="trust-row">
+<svg viewBox="0 0 120 30" aria-label="trusted brand placeholder"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 01</text></svg>
+<svg viewBox="0 0 120 30"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 02</text></svg>
+<svg viewBox="0 0 120 30"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 03</text></svg>
+<svg viewBox="0 0 120 30"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 04</text></svg>
+<svg viewBox="0 0 120 30"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 05</text></svg>
+<svg viewBox="0 0 120 30"><text x="60" y="20" text-anchor="middle" font-size="13" font-weight="600" fill="#999" letter-spacing="2">BRAND 06</text></svg>
+</div>
+</div>
+</div>
+
+<section>
+<div class="wrap">
+<h2 class="section-title">主营产品</h2>
+<p class="section-sub">Custom Metal Crafts & Accessories</p>
+<div class="grid">
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><rect x="20" y="35" width="60" height="30" rx="4"/><circle cx="35" cy="50" r="3" fill="#a48a45"/><circle cx="50" cy="50" r="3" fill="#a48a45"/><circle cx="65" cy="50" r="3" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>金属铭牌 · 标签</h3>
+<p>箱包 / 服装 / 家具 / 宠物 / 酒瓶</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><path d="M30 40 Q50 25 70 40 L70 60 Q50 75 30 60 Z"/><circle cx="50" cy="50" r="6" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>服装金属配件</h3>
+<p>纽扣 / 铆钉 / 五金饰扣</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><rect x="30" y="30" width="40" height="40" rx="6"/><circle cx="50" cy="50" r="8" fill="#a48a45"/><circle cx="50" cy="50" r="3" fill="#faf7f1"/></svg>
+</div>
+<div class="card-body">
+<h3>箱包五金</h3>
+<p>提手 / 锁扣 / 装饰件</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><circle cx="50" cy="50" r="22"/><circle cx="50" cy="50" r="14" fill="#faf7f1"/><text x="50" y="55" text-anchor="middle" font-size="14" font-weight="700" fill="#a48a45">★</text></svg>
+</div>
+<div class="card-body">
+<h3>定制硬币 · 纪念币</h3>
+<p>挑战币 / 周年 / 纪念 / 戒酒币</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><path d="M30 35 L50 25 L70 35 L70 65 L50 75 L30 65 Z"/><path d="M40 45 L50 40 L60 45 L60 60 L50 65 L40 60 Z" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>定制奖牌</h3>
+<p>体育 / 学校 / 军警 / 宗教</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><circle cx="50" cy="50" r="20"/><path d="M50 30 L50 70 M30 50 L70 50" stroke-width="3"/><circle cx="50" cy="50" r="6" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>珐琅胸针 · 徽章</h3>
+<p>学校 / 博物馆 / 旅游 / 公益</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><circle cx="55" cy="50" r="14"/><path d="M62 58 L75 75 L70 80 L57 63 Z" fill="#a48a45"/><circle cx="55" cy="50" r="5" fill="#faf7f1"/></svg>
+</div>
+<div class="card-body">
+<h3>钥匙扣 · 瓶起子</h3>
+<p>异形定制 / 多功能组合</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><rect x="25" y="35" width="50" height="30" rx="4"/><circle cx="35" cy="50" r="4" fill="#a48a45"/><circle cx="50" cy="50" r="4" fill="#a48a45"/><circle cx="65" cy="50" r="4" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>金属名片</h3>
+<p>不锈钢 / 黄铜 / 铝质</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><rect x="30" y="40" width="40" height="25" rx="2"/><path d="M70 45 L80 50 L70 55 Z" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>冰箱贴</h3>
+<p>旅游纪念 / 企业定制</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><path d="M30 30 L30 70 L40 70 L40 50 L50 50 L50 70 L60 70 L60 30 L50 30 L50 40 L40 40 L40 30 Z"/></svg>
+</div>
+<div class="card-body">
+<h3>金属书签</h3>
+<p>异形 / 镂空 / 烫金</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><circle cx="50" cy="45" r="15"/><path d="M40 58 L40 75 L60 75 L60 58"/><circle cx="50" cy="45" r="4" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>宠物铭牌</h3>
+<p>项圈牌 / 身份牌 / 纪念牌</p>
+</div>
+</a>
+
+<a href="#" class="card">
+<div class="card-thumb">
+<svg viewBox="0 0 100 100" fill="none" stroke="#a48a45" stroke-width="2"><path d="M30 45 L50 30 L70 45 L65 75 L35 75 Z"/><circle cx="50" cy="55" r="6" fill="#a48a45"/></svg>
+</div>
+<div class="card-body">
+<h3>工艺礼品 · 摆件</h3>
+<p>文创 / 节日 / 商务礼品</p>
+</div>
+</a>
+
+</div>
+</div>
+</section>
+
+<section class="values">
+<div class="wrap">
+<h2 class="section-title">为什么选择我们</h2>
+<p class="section-sub">Why Choose Us</p>
+<div class="values-grid">
+<div class="value">
+<svg class="v-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 L15 8 L22 9 L17 14 L18 21 L12 18 L6 21 L7 14 L2 9 L9 8 Z"/></svg>
+<h4>20 年经验</h4>
+<p>工艺成熟,熟悉各类金属加工工艺</p>
+</div>
+<div class="value">
+<svg class="v-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12 L9 18 L21 6"/></svg>
+<h4>严格质检</h4>
+<p>全检出货,公差与色彩稳定</p>
+</div>
+<div class="value">
+<svg class="v-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7 L12 12 L16 14"/></svg>
+<h4>快速交付</h4>
+<p>常规订单 15-20 天,加急可谈</p>
+</div>
+<div class="value">
+<svg class="v-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7 L12 3 L21 7 L12 11 Z"/><path d="M3 12 L12 16 L21 12"/><path d="M3 17 L12 21 L21 17"/></svg>
+<h4>柔性起订</h4>
+<p>支持小批量试单,长期合作更优惠</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="process">
+<div class="wrap">
+<h2 class="section-title">定制流程</h2>
+<p class="section-sub">How To Customize</p>
+<ol>
+<li><strong>设计稿确认</strong><span>客户提供 CDR / AI / PDF / PSD / JPG,或与我方共同设计</span></li>
+<li><strong>报价与合同</strong><span>材料、工艺、数量、报价确认,签订合同</span></li>
+<li><strong>开模打样</strong><span>按选定材料(锌合金 / 黄铜 / 铁 / 铝)开模具并打样确认</span></li>
+<li><strong>大货生产</strong><span>压铸 / 冲压 / 抛砂 / 抛光 / 电镀等工序</span></li>
+<li><strong>填色与表面</strong><span>烤漆 / 软珐琅 / 硬珐琅 / 印刷 / 滴胶等</span></li>
+<li><strong>包装出货</strong><span>独立包装 / 集箱 / 跨境物流全程跟踪</span></li>
+</ol>
+</div>
+</section>
+
+<section class="testimonials">
+<div class="wrap">
+<h2 class="section-title">客户怎么说</h2>
+<p class="section-sub">Customer Testimonials</p>
+<div class="tlist">
+<div class="tcard">
+<blockquote>"团队非常专业,从设计到出货全程响应及时,奖牌做工超出预期,价格也有竞争力,后续会长期合作。"</blockquote>
+<cite>Jocelyne V.</cite>
+<span class="role">采购经理 · 体育赛事</span>
+</div>
+<div class="tcard">
+<blockquote>"我们的酒瓶标牌在他们手上完成了从概念到成品的全流程,细节精致、表面处理非常漂亮,客户复购率明显提升。"</blockquote>
+<cite>Jason S.</cite>
+<span class="role">高级买手 · 酒水品牌</span>
+</div>
+<div class="tcard">
+<blockquote>"20 年工厂不是白叫的。工艺成熟,排产稳定,大货交期从没让我们失望过,推荐给所有需要金属定制品的朋友。"</blockquote>
+<cite>Maria L.</cite>
+<span class="role">品牌创始人 · 时尚配饰</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="cta-strip">
+<h2>有定制需求?立即询价</h2>
+<p>免费打样评估 · 1 个工作日内回复 · 中英文沟通</p>
+<a href="/contact.html">联系我们</a>
+</section>
+
+<footer>
+<div class="wrap">
+<div class="links">
+<a href="/about.html">关于我们</a>
+<a href="#">产品</a>
+<a href="/blog.html">资讯</a>
+<a href="/contact.html">联系</a>
+<a href="#">隐私政策</a>
+</div>
+<div class="copy">© 2026 德文琳金属工艺品 · All Rights Reserved</div>
+</div>
+</footer>
+
+</body>
+</html>
